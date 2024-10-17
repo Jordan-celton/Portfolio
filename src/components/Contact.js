@@ -10,6 +10,7 @@ const Contact = () => {
       <section className="mapbox" data-mapbox>
         <figure>
           <iframe
+            title="Map of the location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85433.60571906895!2d-4.1796019119734655!3d47.99824870816598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4810d5972e13aeaf%3A0xd32d85efcaa2cdd0!2s29000%20Quimper!5e0!3m2!1sfr!2sfr!4v1728554413633!5m2!1sfr!2sfr"
             width="600"
             height="450"
