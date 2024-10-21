@@ -82,6 +82,55 @@
   --transition-2: 0.5s ease-in-out;
 }
 
+/* App.css */
+.main-content {
+  position: relative;
+  overflow: hidden;
+  /* Empêche le débordement pendant les animations */
+  min-height: 100vh;
+  /* Assure une hauteur constante pour le conteneur */
+}
+
+/* Animation pour l'entrée de la page */
+.slide-enter {
+  position: absolute;
+  width: 100%;
+  /* Prend toute la largeur */
+  opacity: 0;
+  /* Début transparent */
+  transform: translateX(100%);
+  /* Commence à droite */
+}
+
+.slide-enter-active {
+  opacity: 1;
+  /* Devenir opaque */
+  transform: translateX(0);
+  /* Bouger dans la position */
+  transition: opacity 500ms ease, transform 500ms ease;
+  /* Durée de l'animation */
+}
+
+/* Animation pour la sortie de la page */
+.slide-exit {
+  position: absolute;
+  width: 100%;
+  /* Prend toute la largeur */
+  opacity: 1;
+  /* Commence opaque */
+  transform: translateX(0);
+  /* Rester à la position actuelle */
+}
+
+.slide-exit-active {
+  opacity: 0;
+  /* Devenir transparent */
+  transform: translateX(-100%);
+  /* Bouger vers la gauche */
+  transition: opacity 500ms ease, transform 500ms ease;
+  /* Durée de l'animation */
+}
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -1906,7 +1955,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   article {
-    min-height: 100%;
+    min-height: auto;
   }
 
   /**

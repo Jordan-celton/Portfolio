@@ -1,9 +1,26 @@
 Portfolio en ligne
-Ce projet consiste en la création d'un portfolio en ligne, développé en React. J'ai utilisé un template existant tout en effectuant une migration vers React pour moderniser l'application. L'objectif principal est de présenter de manière professionnelle mes compétences, mon parcours et mes réalisations en développement web.
 
-En migrant vers React, j'ai pu tirer parti de la puissance des composants, ce qui permet une meilleure organisation du code et une réutilisabilité accrue des éléments. J'ai également appliqué des bonnes pratiques de développement, notamment en matière de structure de projet, d'accessibilité et d'optimisation des performances.
+Ce projet est un portfolio en ligne développé avec React pour présenter mes compétences, mon parcours professionnel et mes réalisations en développement web. Il sert non seulement de vitrine pour mes projets, mais démontre également ma capacité à utiliser des technologies modernes et à respecter les meilleures pratiques du développement web.
 
-Ce portfolio ne se limite pas à être une simple vitrine de mes projets ; il illustre également ma capacité à adopter des technologies modernes et à respecter les standards de développement actuels, tout en garantissant une expérience utilisateur fluide et engageante.
+Objectifs du projet :
+
+Mise en avant de mes compétences : ce portfolio présente des projets variés dans lesquels j'ai appliqué différentes technologies et approches de développement.
+
+Migration vers React : l'utilisation de React permet une meilleure gestion des composants, une organisation plus claire du code et une expérience utilisateur optimisée.
+Réutilisabilité et performances : en migrant vers React, j'ai pu améliorer la réutilisabilité du code et optimiser les performances pour garantir un chargement rapide et une navigation fluide.
+Fonctionnalités
+
+Design responsive : le portfolio s'adapte à différentes tailles d'écran (mobile, tablette, bureau).
+Accessibilité : j'ai appliqué les bonnes pratiques d'accessibilité pour offrir une expérience inclusive.
+Composants dynamiques : chaque section (projets, compétences, parcours) est gérée par des composants React réutilisables, permettant une extension facile du contenu.
+
+Optimisation des performances : le projet est optimisé pour garantir des temps de chargement réduits et une navigation fluide, même sur des connexions plus lentes.
+Technologies utilisées
+
+React : pour la gestion des composants et la structure modulaire.
+HTML/CSS : pour la structure et le design responsive.
+JavaScript (ES6) : pour la logique interactive.
+npm : pour la gestion des dépendances.
 
 Installation et exécution
 Pour installer et démarrer le projet localement, suivez les étapes ci-dessous :
