@@ -23,7 +23,7 @@ function AnimatedRoutes() {
         key={location.key} // Utilise location.key pour un bon rendu des animations
         timeout={{ enter: 500, exit: 500 }} // Durée d'entrée et de sortie
         classNames="slide"
-        unmountOnExit // Cette propriété est cruciale pour démonter les composants après l'animation
+        unmountOnExit
       >
         <Routes location={location}>
           <Route path="/" element={<About />} />
