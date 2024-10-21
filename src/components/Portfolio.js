@@ -167,7 +167,7 @@ const Portfolio = () => {
               data-filter-item
               data-category={project.category}
             >
-              <a
+              <button
                 href="#"
                 onClick={(e) => {
                   e.preventDefault(); // Empêche le comportement par défaut du lien
@@ -182,7 +182,7 @@ const Portfolio = () => {
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
-              </a>
+              </button>
             </li>
           ))}
         </ul>
