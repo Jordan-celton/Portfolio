@@ -67,7 +67,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faPhone} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Phone</p>
+              <p className="contact-title">Téléphone</p>
               <a href="tel:+12133522795" className="contact-link">
                 06 81 79 40 93
               </a>
@@ -79,7 +79,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faCalendar} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Birthday</p>
+              <p className="contact-title">Date de naissance</p>
               <time dateTime="1988-02-20">20 Février 1988</time>
             </div>
           </li>
@@ -89,7 +89,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faMapMarkerAlt} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Location</p>
+              <p className="contact-title">Localité</p>
               <address>Quimper, Finistère</address>
             </div>
           </li>

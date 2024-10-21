@@ -136,7 +136,7 @@ const Portfolio = () => {
         <div className="filter-select-box">
           <button className="filter-select" data-select>
             <div className="select-value" data-selecct-value>
-              Select category
+              Choisir une catégorie
             </div>
             <div className="select-icon">
               <ion-icon name="chevron-down"></ion-icon>
