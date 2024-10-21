@@ -1,6 +1,28 @@
-Portfolio en ligne
+# Portfolio
 
-Ce projet est un portfolio en ligne développé avec React pour présenter mes compétences, mon parcours professionnel et mes réalisations en développement web. Il sert non seulement de vitrine pour mes projets, mais démontre également ma capacité à utiliser des technologies modernes et à respecter les meilleures pratiques du développement web.
+Mon Portfolio est une application web développée avec React pour présenter mes compétences, mon parcours et mes projets en développement web.
+
+## Installation
+
+Utilisez le gestionnaire de paquets npm pour installer le projet.
+
+```bash
+npm install
+```
+
+## Usage
+
+```react
+npm start
+```
+Cela lancera l'application en mode développement. Ouvrez http://localhost:3000 pour voir le portfolio dans votre navigateur.
+
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 Objectifs du projet :
 
@@ -22,17 +44,3 @@ HTML/CSS : pour la structure et le design responsive.
 JavaScript (ES6) : pour la logique interactive.
 npm : pour la gestion des dépendances.
 
-Installation et exécution
-Pour installer et démarrer le projet localement, suivez les étapes ci-dessous :
-
-Clonez ce dépôt :
-
-git clone https://github.com/Jordan-celton/P12-react.git
-
-Installez les dépendances avec npm :
-
-npm install
-Démarrez le serveur de développement :
-
-npm start
-L'application sera accessible localement à l'adresse http://localhost:3000.
