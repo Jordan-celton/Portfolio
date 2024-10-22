@@ -1,5 +1,5 @@
 // src/App.js
-import React from "react";
+import React, { useState, useEffect } from "react"; // Ajoutez useState et useEffect
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,25 +13,44 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+// Importation des fichiers de traduction
+import en from "./locales/en.json";
+import fr from "./locales/fr.json";
+
+// Contexte pour la traduction
+export const TranslationContext = React.createContext();
 
 function AnimatedRoutes() {
   const location = useLocation();
+  const { translations } = React.useContext(TranslationContext);
 
   return (
     <TransitionGroup component={null}>
       <CSSTransition
-        key={location.key} // Utilise location.key pour un bon rendu des animations
-        timeout={{ enter: 500, exit: 500 }} // Durée d'entrée et de sortie
+        key={location.key}
+        timeout={{ enter: 500, exit: 500 }}
         classNames="slide"
         unmountOnExit
       >
         <Routes location={location}>
-          <Route path="/" element={<About />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          {/* Ajoute d'autres routes ici */}
+          <Route path="/" element={<About translations={translations} />} />
+          <Route
+            path="/about"
+            element={<About translations={translations} />}
+          />
+          <Route
+            path="/resume"
+            element={<Resume translations={translations} />}
+          />
+          <Route
+            path="/portfolio"
+            element={<Portfolio translations={translations} />}
+          />
+          <Route
+            path="/contact"
+            element={<Contact translations={translations} />}
+          />
+          {/* Ajoutez d'autres routes ici */}
         </Routes>
       </CSSTransition>
     </TransitionGroup>
@@ -39,16 +58,45 @@ function AnimatedRoutes() {
 }
 
 function App() {
+  const [language, setLanguage] = useState("FR");
+  const [translations, setTranslations] = useState(fr); // Langue par défaut : FR
+
+  // Mise à jour des traductions en fonction de la langue
+  useEffect(() => {
+    setTranslations(language === "FR" ? fr : en);
+  }, [language]);
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+  };
+
   return (
-    <Router>
-      <main>
-        <Sidebar />
-        <div className="main-content">
-          <Navbar />
-          <AnimatedRoutes />
+    <TranslationContext.Provider value={{ translations }}>
+      <Router>
+        {/* Boutons de sélection de langue */}
+        <div className="language-selector">
+          <button
+            onClick={() => changeLanguage("FR")}
+            className={language === "FR" ? "active" : ""}
+          >
+            FR
+          </button>
+          <button
+            onClick={() => changeLanguage("EN")}
+            className={language === "EN" ? "active" : ""}
+          >
+            EN
+          </button>
         </div>
-      </main>
-    </Router>
+        <main>
+          <Sidebar />
+          <div className="main-content">
+            <Navbar />
+            <AnimatedRoutes />
+          </div>
+        </main>
+      </Router>
+    </TranslationContext.Provider>
   );
 }
 

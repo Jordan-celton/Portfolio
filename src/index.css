@@ -354,6 +354,29 @@ article.active {
   border-radius: inherit;
   z-index: -1;
 }
+.language-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.language-selector button {
+  color: var(--orange-yellow-crayola);
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.language-selector button.active {
+  background-color: #ccc;
+}
+
+/* .sidebar {
+}
+
+.sidebar.active {
+} */
 
 /*-----------------------------------*\
   #MAIN

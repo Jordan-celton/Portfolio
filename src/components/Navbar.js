@@ -1,8 +1,11 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useContext } from "react";
+import { TranslationContext } from "../App"; // Chemin correct
 
 const Navbar = () => {
   const location = useLocation();
+  const { translations } = useContext(TranslationContext); // Utilisation du contexte pour les traductions
 
   return (
     <nav className="navbar">
@@ -14,7 +17,7 @@ const Navbar = () => {
               location.pathname === "/about" ? "active" : ""
             }`}
           >
-            A propos
+            {translations.navbarAbout}
           </Link>
         </li>
         <li className="navbar-item">
@@ -24,7 +27,7 @@ const Navbar = () => {
               location.pathname === "/resume" ? "active" : ""
             }`}
           >
-            Resume
+            {translations.navbarResume}
           </Link>
         </li>
         <li className="navbar-item">
@@ -34,7 +37,7 @@ const Navbar = () => {
               location.pathname === "/portfolio" ? "active" : ""
             }`}
           >
-            Portfolio
+            {translations.navbarPortfolio}
           </Link>
         </li>
         <li className="navbar-item">
@@ -44,7 +47,7 @@ const Navbar = () => {
               location.pathname === "/contact" ? "active" : ""
             }`}
           >
-            Contact
+            {translations.navbarContact}
           </Link>
         </li>
       </ul>

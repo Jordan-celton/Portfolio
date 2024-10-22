@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -6,13 +6,15 @@ import {
   faCalendar,
   faMapMarkerAlt,
   faChevronDown,
+  faChevronUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import PhotoProfil from "../images/photo profil.jpg";
+import PhotoProfil from "../images/photo profil.jpg"; // Assurez-vous que le chemin de l'image est correct
+import { TranslationContext } from "../App"; // Chemin correct
 
 const Sidebar = () => {
-  // État pour gérer la visibilité de la section "contacts"
   const [isActive, setIsActive] = useState(false);
+  const { translations } = useContext(TranslationContext); // Utilisez useContext pour accéder aux traductions
 
   const toggleSidebar = () => {
     setIsActive(!isActive);
@@ -26,24 +28,25 @@ const Sidebar = () => {
         </figure>
 
         <div className="info-content">
-          <h1 className="name" title="Jordan Celton">
-            Jordan Celton
+          <h1 className="name" title={translations.name}>
+            {translations.name}
           </h1>
-          <p className="title">Intégrateur Web</p>
+          <p className="title">{translations.title}</p>
         </div>
 
-        {/* Bouton pour afficher/masquer les contacts */}
         <button
           className="info_more-btn"
           data-sidebar-btn
           onClick={toggleSidebar}
         >
-          <span>Show Contacts</span>
-          <FontAwesomeIcon icon={faChevronDown} />
+          <span>
+            {isActive ? translations.hideContacts : translations.showContacts}
+          </span>
+          <FontAwesomeIcon icon={isActive ? faChevronUp : faChevronDown} />
         </button>
       </div>
 
-      <div className="sidebar-info_more">
+      <div className={`sidebar-info_more ${isActive ? "visible" : "hidden"}`}>
         <div className="separator"></div>
 
         <ul className="contacts-list">
@@ -52,7 +55,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faEnvelope} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Email</p>
+              <p className="contact-title">{translations.email}</p>
               <a
                 href="mailto:celton.jordan@outlook.fr"
                 className="contact-link"
@@ -67,7 +70,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faPhone} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Téléphone</p>
+              <p className="contact-title">{translations.phone}</p>
               <a href="tel:+12133522795" className="contact-link">
                 06 81 79 40 93
               </a>
@@ -79,8 +82,8 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faCalendar} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Date de naissance</p>
-              <time dateTime="1988-02-20">20 Février 1988</time>
+              <p className="contact-title">{translations.dob}</p>
+              <time dateTime="1988-02-20">{translations.birthdate}</time>
             </div>
           </li>
 
@@ -89,8 +92,8 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faMapMarkerAlt} />
             </div>
             <div className="contact-info">
-              <p className="contact-title">Localité</p>
-              <address>Quimper, Finistère</address>
+              <p className="contact-title">{translations.location}</p>
+              <address>{translations.city}</address>
             </div>
           </li>
         </ul>
