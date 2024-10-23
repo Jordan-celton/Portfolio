@@ -1,27 +1,68 @@
 {
   "name": "Jordan Celton",
-  "title": "Développeur Web",
-  "showContacts": "Afficher les contacts",
-  "hideContacts": "Cacher les contacts",
-  "email": "E-mail",
-  "phone": "Téléphone",
-  "dob": "Date de naissance",
-  "location": "Lieu",
-  "birthdate": "20 février 1988",
-  "city": "Quimper, Finistère",
-  "aboutTitle": "À propos",
-  "aboutText": "Après plusieurs années dans un autre domaine, j'ai décidé de me reconvertir vers le développement web, spécifiquement en tant qu'intégrateur web. Ce choix a été motivé par ma passion pour la création de sites web et mon désir de combiner créativité et technologie. Aujourd'hui, je prends un réel plaisir à construire des sites modernes et intuitifs qui répondent aux besoins des utilisateurs. Chaque projet est une occasion pour moi d'apprendre, de relever de nouveaux défis et d'améliorer mes compétences.",
-  "serviceTitle": "Ce que je fais",
-  "designWebTitle": "Conception Web",
-  "designWebText": "Création de designs modernes et intuitifs adaptés aux besoins des utilisateurs et des entreprises.",
-  "integrationWebTitle": "Intégration Web",
-  "integrationWebText": "Intégration de sites web responsives optimisés pour tous types d'écrans, en utilisant les meilleures pratiques web.",
-  "developmentFrontEndTitle": "Développement Front-End",
-  "developmentFrontEndText": "Développement de l'interface utilisateur, assurant une expérience fluide et agréable pour les visiteurs.",
-  "optimizationPerformanceTitle": "Optimisation et Performance",
-  "optimizationPerformanceText": "Amélioration de la vitesse et des performances du site web pour une navigation rapide et fluide.",
-  "navbarAbout": "À propos",
-  "navbarResume": "CV",
-  "navbarPortfolio": "Portfolio",
-  "navbarContact": "Contact"
+    "title": "Développeur Web",
+    "showContacts": "Afficher les contacts",
+    "hideContacts": "Cacher les contacts",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "dob": "Date de naissance",
+    "location": "Lieu",
+    "birthdate": "20 février 1988",
+    "city": "Quimper, Finistère",
+    "aboutTitle": "À propos",
+    "aboutText": "Après plusieurs années dans un autre domaine, j'ai décidé de me reconvertir vers le développement web, spécifiquement en tant qu'intégrateur web. Ce choix a été motivé par ma passion pour la création de sites web et mon désir de combiner créativité et technologie. Aujourd'hui, je prends un réel plaisir à construire des sites modernes et intuitifs qui répondent aux besoins des utilisateurs. Chaque projet est une occasion pour moi d'apprendre, de relever de nouveaux défis et d'améliorer mes compétences.",
+    "serviceTitle": "Ce que je fais",
+    "designWebTitle": "Conception Web",
+    "designWebText": "Création de designs modernes et intuitifs adaptés aux besoins des utilisateurs et des entreprises.",
+    "integrationWebTitle": "Intégration Web",
+    "integrationWebText": "Intégration de sites web responsives optimisés pour tous types d'écrans, en utilisant les meilleures pratiques web.",
+    "developmentFrontEndTitle": "Développement Front-End",
+    "developmentFrontEndText": "Développement de l'interface utilisateur, assurant une expérience fluide et agréable pour les visiteurs.",
+    "optimizationPerformanceTitle": "Optimisation et Performance",
+    "optimizationPerformanceText": "Amélioration de la vitesse et des performances du site web pour une navigation rapide et fluide.",
+    "navbarAbout": "À propos",
+    "navbarResume": "CV",
+    "navbarPortfolio": "Portfolio",
+    "navbarContact": "Contact",
+    "resumeTitle": "Mon Parcours",
+    "educationTitle": "Éducation",
+    "educationList": [
+      {
+        "degree": "OpenClassrooms - Développeur Web",
+        "year": "2024 - 9 mois",
+        "description": "Formation intensive d'intégrateur web, apprentissage des technologies front-end et back-end, et réalisation de plusieurs projets concrets."
+      },
+      {
+        "degree": "Baccalauréat Technique en Usinage - Lycée Le Likes",
+        "year": "2008",
+        "description": "Obtention du Baccalauréat Technique avec une spécialisation en techniques d'usinage au Lycée Le Likes, développant des compétences en programmation et fabrication industrielle."
+      }
+    ],
+    "experienceTitle": "Expérience Professionnelle",
+    "experienceList": [
+      {
+        "position": "Développeur Web Freelance",
+        "year": "2024 — Présent",
+        "description": "Développement de sites et applications web pour des clients de divers secteurs, en utilisant des technologies modernes telles que HTML, CSS, JavaScript, et React."
+      }
+    ],
+    "skillsTitle": "Mes Compétences",
+    "skillsList": [
+      {
+        "name": "HTML / CSS",
+        "level": "70"
+      },
+      {
+        "name": "JavaScript",
+        "level": "50"
+      },
+      {
+        "name": "React",
+        "level": "50"
+      },
+      {
+        "name": "Git / GitHub",
+        "level": "60"
 }
+  ]
+  }

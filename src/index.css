@@ -369,7 +369,7 @@ article.active {
 }
 
 .language-selector button.active {
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0.5);
 }
 
 /* .sidebar {

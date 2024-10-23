@@ -23,5 +23,47 @@
   "navbarAbout": "About",
   "navbarResume": "Resume",
   "navbarPortfolio": "Portfolio",
-  "navbarContact": "Contact"
+  "navbarContact": "Contact",
+  "resumeTitle": "My Journey",
+  "educationTitle": "Education",
+  "educationList": [
+    {
+      "degree": "OpenClassrooms - Web Developer",
+      "year": "2024 - 9 months",
+      "description": "Intensive Web Integrator training, learning front-end and back-end technologies, and completing several concrete projects."
+    },
+    {
+      "degree": "Technical Baccalaureate in Machining - Lycée Le Likes",
+      "year": "2008",
+      "description": "Obtained the Technical Baccalaureate with a specialization in machining techniques at Lycée Le Likes, developing skills in programming and industrial manufacturing."
+    }
+  ],
+  "experienceTitle": "Professional Experience",
+  "experienceList": [
+    {
+      "position": "Freelance Web Developer",
+      "year": "2024 — Present",
+      "description": "Developing websites and applications for clients across various sectors, using modern technologies like HTML, CSS, JavaScript, and React."
+    }
+  ],
+
+  "skillsTitle": "My Skills",
+  "skillsList": [
+    {
+      "name": "HTML / CSS",
+      "level": "70"
+    },
+    {
+      "name": "JavaScript",
+      "level": "50"
+    },
+    {
+      "name": "React",
+      "level": "50"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": "60"
+    }
+  ]
 }
