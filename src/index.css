@@ -356,21 +356,21 @@ article.active {
 }
 .language-selector {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-bottom: 10px;
 }
 
 .language-selector button {
   color: var(--orange-yellow-crayola);
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 5px 10px;
   cursor: pointer;
   margin: 0 5px;
 }
 
-.language-selector button.active {
+/* .language-selector button.active {
   background-color: rgba(204, 204, 204, 0.5);
-}
+} */
 
 /* .sidebar {
 }
@@ -1744,7 +1744,7 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar,
   article {
-    width: 700px;
+    width: auto;
   }
 
   .has-scrollbar::-webkit-scrollbar-button {

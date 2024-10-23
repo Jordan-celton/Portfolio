@@ -83,7 +83,12 @@
     "argentBankTitle": "Argent Bank - Dashboard utilisateur",
     "argentBankDescription": "Développement du front-end d'une application bancaire avec React et Redux. Intégration des appels API, création d'une interface utilisateur responsive et gestion de l'état global avec Redux.\nLien vers le projet : https://github.com/Jordan-celton/P10",
     "qwentaTitle": "Menu Maker - Qwenta",
-    "qwentaDescription": "Développement du projet **Menu Maker - Qwenta**, un outil en ligne pour la création et la personnalisation de menus par les restaurateurs.\nLien vers le projet : https://github.com/Jordan-celton/P11"
-  
-  
+    "qwentaDescription": "Développement du projet **Menu Maker - Qwenta**, un outil en ligne pour la création et la personnalisation de menus par les restaurateurs.\nLien vers le projet : https://github.com/Jordan-celton/P11",
+    "contactTitle": "Contact",
+    "contactFormTitle": "Me contacter",
+    "namePlaceholder": "Nom Prénom",
+    "emailPlaceholder": "Adresse mail",
+    "messagePlaceholder": "Votre Message",
+    "submitButton": "Envoyer",
+    "mapTitle": "Carte de l'emplacement"
   }

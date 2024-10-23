@@ -17,6 +17,9 @@ import Contact from "./components/Contact";
 import en from "./locales/en.json";
 import fr from "./locales/fr.json";
 
+import FlagFrance from "./images/france_texture.gif";
+import FlagEngland from "./images/england_texture.gif";
+
 // Contexte pour la traduction
 export const TranslationContext = React.createContext();
 
@@ -79,15 +82,24 @@ function App() {
             onClick={() => changeLanguage("FR")}
             className={language === "FR" ? "active" : ""}
           >
-            FR
+            <img
+              src={FlagFrance}
+              alt="French"
+              style={{ width: "24px", height: "24px" }}
+            />
           </button>
           <button
             onClick={() => changeLanguage("EN")}
             className={language === "EN" ? "active" : ""}
           >
-            EN
+            <img
+              src={FlagEngland}
+              alt="English"
+              style={{ width: "24px", height: "24px" }}
+            />
           </button>
         </div>
+
         <main>
           <Sidebar />
           <div className="main-content">
