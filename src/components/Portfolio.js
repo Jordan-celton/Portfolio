@@ -19,6 +19,7 @@ const Portfolio = () => {
   const { translations } = useContext(TranslationContext); // Utiliser le contexte
   const [activeCategory, setActiveCategory] = useState("All");
   const [modalData, setModalData] = useState({ title: "", description: "" });
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // État pour gérer l'ouverture du menu déroulant
 
   const projects = [
     {
@@ -134,9 +135,14 @@ const Portfolio = () => {
           ))}
         </ul>
 
+        {/* Sélecteur pour la version mobile */}
         <div className="filter-select-box">
-          <button className="filter-select" data-select>
-            <div className="select-value" data-selecct-value>
+          <button
+            className={`filter-select ${isDropdownOpen ? "active" : ""}`}
+            data-select
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          >
+            <div className="select-value" data-select-value>
               {translations.chooseCategory || "Choisir une catégorie"}
             </div>
             <div className="select-icon">
@@ -144,23 +150,28 @@ const Portfolio = () => {
             </div>
           </button>
 
-          <ul className="select-list">
-            {[
-              "All",
-              translations.webDesign || "Web design",
-              translations.applications || "Applications",
-              translations.webDevelopment || "Web development",
-            ].map((category) => (
-              <li className="select-item" key={category}>
-                <button
-                  onClick={() => setActiveCategory(category)}
-                  data-select-item
-                >
-                  {category}
-                </button>
-              </li>
-            ))}
-          </ul>
+          {isDropdownOpen && (
+            <ul className="select-list">
+              {[
+                "All",
+                translations.webDesign || "Web design",
+                translations.applications || "Applications",
+                translations.webDevelopment || "Web development",
+              ].map((category) => (
+                <li className="select-item" key={category}>
+                  <button
+                    onClick={() => {
+                      setActiveCategory(category);
+                      setIsDropdownOpen(false); // Ferme le menu déroulant après la sélection
+                    }}
+                    data-select-item
+                  >
+                    {category}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
 
         <ul className="project-list">

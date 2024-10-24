@@ -6,10 +6,33 @@ import {
   faDesktop,
   faRocket,
 } from "@fortawesome/free-solid-svg-icons";
-import { TranslationContext } from "../App"; // Importer le contexte
+import { TranslationContext } from "../App";
 
 const About = () => {
-  const { translations } = useContext(TranslationContext); // Utiliser le contexte
+  const { translations } = useContext(TranslationContext);
+
+  const services = [
+    {
+      icon: faPaintBrush,
+      title: translations.designWebTitle,
+      text: translations.designWebText,
+    },
+    {
+      icon: faCode,
+      title: translations.integrationWebTitle,
+      text: translations.integrationWebText,
+    },
+    {
+      icon: faDesktop,
+      title: translations.developmentFrontEndTitle,
+      text: translations.developmentFrontEndText,
+    },
+    {
+      icon: faRocket,
+      title: translations.optimizationPerformanceTitle,
+      text: translations.optimizationPerformanceText,
+    },
+  ];
 
   return (
     <article className="about active" data-page="about">
@@ -25,63 +48,17 @@ const About = () => {
         <h3 className="h3 service-title">{translations.serviceTitle}</h3>
 
         <ul className="service-list">
-          <li className="service-item">
-            <div className="service-icon-box">
-              <FontAwesomeIcon icon={faPaintBrush} size="2x" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="h4 service-item-title">
-                {translations.designWebTitle}
-              </h4>
-              <p className="service-item-text">{translations.designWebText}</p>
-            </div>
-          </li>
-
-          <li className="service-item">
-            <div className="service-icon-box">
-              <FontAwesomeIcon icon={faCode} size="2x" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="h4 service-item-title">
-                {translations.integrationWebTitle}
-              </h4>
-              <p className="service-item-text">
-                {translations.integrationWebText}
-              </p>
-            </div>
-          </li>
-
-          <li className="service-item">
-            <div className="service-icon-box">
-              <FontAwesomeIcon icon={faDesktop} size="2x" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="h4 service-item-title">
-                {translations.developmentFrontEndTitle}
-              </h4>
-              <p className="service-item-text">
-                {translations.developmentFrontEndText}
-              </p>
-            </div>
-          </li>
-
-          <li className="service-item">
-            <div className="service-icon-box">
-              <FontAwesomeIcon icon={faRocket} size="2x" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="h4 service-item-title">
-                {translations.optimizationPerformanceTitle}
-              </h4>
-              <p className="service-item-text">
-                {translations.optimizationPerformanceText}
-              </p>
-            </div>
-          </li>
+          {services.map((service, index) => (
+            <li className="service-item" key={index}>
+              <div className="service-icon-box">
+                <FontAwesomeIcon icon={service.icon} size="2x" />
+              </div>
+              <div className="service-content-box">
+                <h4 className="h4 service-item-title">{service.title}</h4>
+                <p className="service-item-text">{service.text}</p>
+              </div>
+            </li>
+          ))}
         </ul>
       </section>
     </article>
