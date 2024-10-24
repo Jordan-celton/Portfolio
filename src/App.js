@@ -26,11 +26,22 @@ export const TranslationContext = React.createContext();
 function AnimatedRoutes() {
   const location = useLocation();
   const { translations } = React.useContext(TranslationContext);
+  const [prevLocation, setPrevLocation] = useState(location.pathname);
+
+  // Détermine si la page actuelle est différente de la précédente
+  const isDifferentPage = location.pathname !== prevLocation;
+
+  // Met à jour la route précédente uniquement lorsqu'il y a un changement de route
+  useEffect(() => {
+    if (isDifferentPage) {
+      setPrevLocation(location.pathname);
+    }
+  }, [location.pathname, isDifferentPage]);
 
   return (
     <TransitionGroup component={null}>
       <CSSTransition
-        key={location.key}
+        key={isDifferentPage ? location.key : prevLocation} // N'utilise pas une nouvelle clé si on est sur la même page
         timeout={{ enter: 500, exit: 500 }}
         classNames="slide"
         unmountOnExit
