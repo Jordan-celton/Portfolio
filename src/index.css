@@ -1685,7 +1685,7 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 1024px screen
  */
 
-@media (min-width: 1024px) and (max-width: 1366px) {
+@media (min-width: 1024px) {
   /**
    * CUSTOM PROPERTY
    */
