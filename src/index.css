@@ -1302,8 +1302,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   main {
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin: 30px;
   }
 
   /**
@@ -1374,6 +1373,15 @@ textarea.form-input::-webkit-resizer {
 
   .navbar {
     border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: max-content;
+    border-radius: 0 20px;
+    padding: 0 20px;
+    box-shadow: none;
   }
 
   .navbar-list {
