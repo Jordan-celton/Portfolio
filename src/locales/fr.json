@@ -1,94 +1,133 @@
 {
   "name": "Jordan Celton",
-    "title": "Développeur Web",
-    "showContacts": "Afficher les contacts",
-    "hideContacts": "Cacher les contacts",
-    "email": "E-mail",
-    "phone": "Téléphone",
-    "dob": "Date de naissance",
-    "location": "Lieu",
-    "birthdate": "20 février 1988",
-    "city": "Quimper, Finistère",
-    "aboutTitle": "À propos",
-    "aboutText": "Après plusieurs années dans un autre domaine, j'ai décidé de me reconvertir vers le développement web, spécifiquement en tant qu'intégrateur web. Ce choix a été motivé par ma passion pour la création de sites web et mon désir de combiner créativité et technologie. Aujourd'hui, je prends un réel plaisir à construire des sites modernes et intuitifs qui répondent aux besoins des utilisateurs. Chaque projet est une occasion pour moi d'apprendre, de relever de nouveaux défis et d'améliorer mes compétences.",
-    "serviceTitle": "Ce que je fais",
-    "designWebTitle": "Conception Web",
-    "designWebText": "Création de designs modernes et intuitifs adaptés aux besoins des utilisateurs et des entreprises.",
-    "integrationWebTitle": "Intégration Web",
-    "integrationWebText": "Intégration de sites web responsives optimisés pour tous types d'écrans, en utilisant les meilleures pratiques web.",
-    "developmentFrontEndTitle": "Développement Front-End",
-    "developmentFrontEndText": "Développement de l'interface utilisateur, assurant une expérience fluide et agréable pour les visiteurs.",
-    "optimizationPerformanceTitle": "Optimisation et Performance",
-    "optimizationPerformanceText": "Amélioration de la vitesse et des performances du site web pour une navigation rapide et fluide.",
-    "navbarAbout": "À propos",
-    "navbarResume": "CV",
-    "navbarPortfolio": "Portfolio",
-    "navbarContact": "Contact",
-    "resumeTitle": "Mon Parcours",
-    "educationTitle": "Éducation",
-    "educationList": [
-      {
-        "degree": "OpenClassrooms - Développeur Web",
-        "year": "2024 - 9 mois",
-        "description": "Formation intensive d'intégrateur web, apprentissage des technologies front-end et back-end, et réalisation de plusieurs projets concrets."
-      },
-      {
-        "degree": "Baccalauréat Technique en Usinage - Lycée Le Likes",
-        "year": "2008",
-        "description": "Obtention du Baccalauréat Technique avec une spécialisation en techniques d'usinage au Lycée Le Likes, développant des compétences en programmation et fabrication industrielle."
-      }
-    ],
-    "experienceTitle": "Expérience Professionnelle",
-    "experienceList": [
-      {
-        "position": "Développeur Web Freelance",
-        "year": "2024 — Présent",
-        "description": "Développement de sites et applications web pour des clients de divers secteurs, en utilisant des technologies modernes telles que HTML, CSS, JavaScript, et React."
-      }
-    ],
-    "skillsTitle": "Mes Compétences",
-    "skillsList": [
-      {
-        "name": "HTML / CSS",
-        "level": "70"
-      },
-      {
-        "name": "JavaScript",
-        "level": "50"
-      },
-      {
-        "name": "React",
-        "level": "50"
-      },
-      {
-        "name": "Git / GitHub",
-        "level": "60"
-}
+  "title": "Développeur Web",
+  "showContacts": "Afficher les contacts",
+  "hideContacts": "Cacher les contacts",
+  "email": "E-mail",
+  "phone": "Téléphone",
+  "dob": "Date de naissance",
+  "location": "Lieu",
+  "birthdate": "20 février 1988",
+  "city": "Quimper, Finistère",
+  "aboutTitle": "À propos",
+  "aboutText": "Après plusieurs années dans un autre domaine, j'ai décidé de me reconvertir vers le développement web, spécifiquement en tant qu'intégrateur web. Ce choix a été motivé par ma passion pour la création de sites web et mon désir de combiner créativité et technologie. Aujourd'hui, je prends un réel plaisir à construire des sites modernes et intuitifs qui répondent aux besoins des utilisateurs. Chaque projet est une occasion pour moi d'apprendre, de relever de nouveaux défis et d'améliorer mes compétences.",
+  "serviceTitle": "Ce que je fais",
+  "designWebTitle": "Conception Web",
+  "designWebText": "Création de designs modernes et intuitifs adaptés aux besoins des utilisateurs et des entreprises.",
+  "integrationWebTitle": "Intégration Web",
+  "integrationWebText": "Intégration de sites web responsives optimisés pour tous types d'écrans, en utilisant les meilleures pratiques web.",
+  "developmentFrontEndTitle": "Développement Front-End",
+  "developmentFrontEndText": "Développement de l'interface utilisateur, assurant une expérience fluide et agréable pour les visiteurs.",
+  "optimizationPerformanceTitle": "Optimisation et Performance",
+  "optimizationPerformanceText": "Amélioration de la vitesse et des performances du site web pour une navigation rapide et fluide.",
+  "navbarAbout": "À propos",
+  "navbarResume": "CV",
+  "navbarPortfolio": "Portfolio",
+  "navbarContact": "Contact",
+  "resumeTitle": "Mon Parcours",
+  "educationTitle": "Éducation",
+  "educationList": [
+    {
+      "degree": "OpenClassrooms - Développeur Web",
+      "year": "2024 - 9 mois",
+      "description": "Formation intensive d'intégrateur web, apprentissage des technologies front-end et back-end, et réalisation de plusieurs projets concrets."
+    },
+    {
+      "degree": "Baccalauréat Technique en Usinage - Lycée Le Likes",
+      "year": "2008",
+      "description": "Obtention du Baccalauréat Technique avec une spécialisation en techniques d'usinage au Lycée Le Likes, développant des compétences en programmation et fabrication industrielle."
+    }
   ],
-  
-    "portfolioTitle": "Portfolio",
-    "chooseCategory": "Choisir une catégorie",
-    "bookiTitle": "Booki",
-    "bookiDescription": "Création de la page d'accueil d'une agence de voyage avec une interface responsive utilisant HTML5 et CSS3. Intégration de maquettes Figma et développement de composants personnalisés pour une expérience utilisateur optimale.\nLien vers le projet : https://github.com/Jordan-celton/P3",
-    "ohmyfoodTitle": "Ohmyfood",
-    "ohmyfoodDescription": "Objectifs d'apprentissage : conception mobile-first, implémentation d'animations CSS, utilisation de Sass pour un code maintenable, et versionnement avec Git et GitHub.\nLien vers le projet : https://github.com/Jordan-celton/P4",
-    "sophiebluelTitle": "Portfolio Architecte Intérieur",
-    "sophiebluelDescription": "Développement d'une page web dynamique pour un site d'architecte d'intérieur avec JavaScript. Interaction avec une API, création de pages dynamiques et utilisation d'outils comme Figma et Visual Studio Code.\nLien vers le projet : https://github.com/Jordan-celton/P6",
-    "kasaTitle": "Refonte du site Kasa",
-    "kasaDescription": "Implémentation du front-end d'une application avec React et React Router. Développement de composants, gestion de la navigation et utilisation de données simulées à partir d'un fichier JSON.\nLien vers le projet : https://github.com/Jordan-celton/P7",
-    "ninaCarducciTitle": "Nina Carducci - Optimisation SEO",
-    "ninaCarducciDescription": "Optimisation du référencement d'un site web en améliorant sa performance et son accessibilité. Analyse des problèmes, mise en œuvre d'améliorations et création d'un rapport détaillant les résultats avant/après.\nLien vers le projet : https://github.com/Jordan-celton/P8",
-    "eventsTitle": "724events - Debug et test",
-    "eventsDescription": "Débuggage et finalisation d'un site one-page. Analyse du code, résolution de bugs avec les Chrome DevTools et React Developer Tools, documentation des tests, et gestion de projet avec Yarn.\nLien vers le projet : https://github.com/Jordan-celton/P9",
-    "argentBankTitle": "Argent Bank - Dashboard utilisateur",
-    "argentBankDescription": "Développement du front-end d'une application bancaire avec React et Redux. Intégration des appels API, création d'une interface utilisateur responsive et gestion de l'état global avec Redux.\nLien vers le projet : https://github.com/Jordan-celton/P10",
-    "qwentaTitle": "Menu Maker - Qwenta",
-    "qwentaDescription": "Développement du projet **Menu Maker - Qwenta**, un outil en ligne pour la création et la personnalisation de menus par les restaurateurs.\nLien vers le projet : https://github.com/Jordan-celton/P11",
-    "contactTitle": "Contact",
-    "contactFormTitle": "Me contacter",
-    "namePlaceholder": "Nom Prénom",
-    "emailPlaceholder": "Adresse mail",
-    "messagePlaceholder": "Votre Message",
-    "submitButton": "Envoyer",
-    "mapTitle": "Carte de l'emplacement"
-  }
+  "experienceTitle": "Expérience Professionnelle",
+  "experienceList": [
+    {
+      "position": "Développeur Web Freelance",
+      "year": "2024 — Présent",
+      "description": "Développement de sites et applications web pour des clients de divers secteurs, en utilisant des technologies modernes telles que HTML, CSS, JavaScript, et React."
+    }
+  ],
+  "skillsTitle": "Mes Compétences",
+  "skillsList": [
+    {
+      "name": "HTML / CSS",
+      "level": "70"
+    },
+    {
+      "name": "JavaScript",
+      "level": "50"
+    },
+    {
+      "name": "React",
+      "level": "50"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": "60"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Booki",
+      "description": "Création de la page d'accueil d'une agence de voyage avec une interface responsive utilisant HTML5 et CSS3. Intégration de maquettes Figma et développement de composants personnalisés pour une expérience utilisateur optimale.",
+      "link": "https://github.com/Jordan-celton/P3",
+      "img": "/images/projet-booki.png", 
+      "category": "Web design"
+    },
+    {
+      "title": "Ohmyfood",
+      "description": "Objectifs d'apprentissage : conception mobile-first, implémentation d'animations CSS, utilisation de Sass pour un code maintenable, et versionnement avec Git et GitHub. :",
+      "link": "https://github.com/Jordan-celton/P4",
+      "img": "/images/projet-ohmyfood.png", 
+      "category": "Applications"
+    },
+    {
+      "title": "Portfolio Architecte Intérieur",
+      "description": "Développement d'une page web dynamique pour un site d'architecte d'intérieur avec JavaScript. Interaction avec une API, création de pages dynamiques et utilisation d'outils comme Figma et Visual Studio Code. :",
+      "link": "https://github.com/Jordan-celton/P6",
+        "img": "/images/projet-sophiebluel.png", 
+        "category": "Web design"
+    },
+    {
+      "title": "Refonte du site Kasa",
+      "description": "Implémentation du front-end d'une application avec React et React Router. Développement de composants, gestion de la navigation et utilisation de données simulées à partir d'un fichier JSON. :",
+      "link": "https://github.com/Jordan-celton/P7",
+        "img": "/images/projet-kasa.png", 
+        "category": "Web design"
+    },
+    {
+      "title": "Nina Carducci - Optimisation SEO",
+      "description": "Optimisation du référencement d'un site web en améliorant sa performance et son accessibilité. Analyse des problèmes, mise en œuvre d'améliorations et création d'un rapport détaillant les résultats avant/après. :",
+      "link": "https://github.com/Jordan-celton/P8",
+        "img": "/images/projet-nina-carducci.png", 
+        "category": "Web development"
+    },
+    {
+      "title": "724events - Debug et test",
+      "description": "Débuggage et finalisation d'un site one-page. Analyse du code, résolution de bugs avec les Chrome DevTools et React Developer Tools, documentation des tests, et gestion de projet avec Yarn. :",
+      "link": "https://github.com/Jordan-celton/P9",
+        "img": "/images/projet-724-events.png", 
+        "category": "Web development"
+    },
+    {
+      "title": "Argent Bank - Dashboard utilisateur",
+      "description": "Développement du front-end d'une application bancaire avec React et Redux. Intégration des appels API, création d'une interface utilisateur responsive et gestion de l'état global avec Redux. :",
+      "link": "https://github.com/Jordan-celton/P10-forked",
+        "img": "/images/projet-argentbank.png", 
+        "category": "Applications"
+    },
+    {
+      "title": "Menu Maker - Qwenta",
+      "description": "Développement du projet **Menu Maker - Qwenta**, un outil en ligne pour la création et la personnalisation de menus par les restaurateurs. :",
+      "link": "https://github.com/Jordan-celton/P11",
+        "img": "/images/projet-qwenta.png",
+        "category": "Web development"
+    }
+  ], 
+  "contactTitle": "Contact",
+  "contactFormTitle": "Me contacter",
+  "namePlaceholder": "Nom Prénom",
+  "emailPlaceholder": "Adresse mail",
+  "messagePlaceholder": "Votre Message",
+  "submitButton": "Envoyer",
+  "mapTitle": "Carte de l'emplacement"
+}

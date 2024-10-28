@@ -693,6 +693,9 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+.modal a {
+  color: var(--orange-yellow-crayola);
+}
 
 #modalTitle {
   color: var(--orange-yellow-crayola);

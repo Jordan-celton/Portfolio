@@ -1,15 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
 
-// Importation des images
-import bookiImg from "../images/projet-booki.png";
-import ohmyfoodImg from "../images/projet-ohmyfood.png";
-import sophiebluelImg from "../images/projet-sophiebluel.png";
-import kasaImg from "../images/projet-kasa.png";
-import ninaCarducciImg from "../images/projet-nina-carducci.png";
-import eventsImg from "../images/projet-724-events.png";
-import argentBankImg from "../images/projet-argentBank.png";
-import qwentaImg from "../images/projet-qwenta.png";
-
 // Importation de Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
@@ -18,69 +8,22 @@ import { TranslationContext } from "../App"; // Importer le contexte
 const Portfolio = () => {
   const { translations } = useContext(TranslationContext); // Utiliser le contexte
   const [activeCategory, setActiveCategory] = useState("All");
-  const [modalData, setModalData] = useState({ title: "", description: "" });
+  const [modalData, setModalData] = useState({
+    title: "",
+    description: "",
+    link: "",
+  });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false); // État pour gérer l'ouverture du menu déroulant
 
-  const projects = [
-    {
-      title: translations.bookiTitle || "Booki",
-      img: bookiImg,
-      category: translations.webDevelopment || "Web development",
-      description: translations.bookiDescription,
-    },
-    {
-      title: translations.ohmyfoodTitle || "Ohmyfood",
-      img: ohmyfoodImg,
-      category: translations.webDesign || "Web design",
-      description: translations.ohmyfoodDescription,
-    },
-    {
-      title: translations.sophiebluelTitle || "Portfolio Architecte Intérieur",
-      img: sophiebluelImg,
-      category: translations.webDesign || "Web design",
-      description: translations.sophiebluelDescription,
-    },
-    {
-      title: translations.kasaTitle || "Refonte du site Kasa",
-      img: kasaImg,
-      category: translations.applications || "Applications",
-      description: translations.kasaDescription,
-    },
-    {
-      title:
-        translations.ninaCarducciTitle || "Nina Carducci - Optimisation SEO",
-      img: ninaCarducciImg,
-      category: translations.webDevelopment || "Web development",
-      description: translations.ninaCarducciDescription,
-    },
-    {
-      title: translations.eventsTitle || "724events - Debug et test",
-      img: eventsImg,
-      category: translations.webDevelopment || "Web development",
-      description: translations.eventsDescription,
-    },
-    {
-      title:
-        translations.argentBankTitle || "Argent Bank - Dashboard utilisateur",
-      img: argentBankImg,
-      category: translations.applications || "Applications",
-      description: translations.argentBankDescription,
-    },
-    {
-      title: translations.qwentaTitle || "Menu Maker - Qwenta",
-      img: qwentaImg,
-      category: translations.webDevelopment || "Web development",
-      description: translations.qwentaDescription,
-    },
-  ];
+  const projects = translations.projects;
 
   const filteredProjects =
     activeCategory === "All"
       ? projects
       : projects.filter((project) => project.category === activeCategory);
 
-  const openModal = (title, description) => {
-    setModalData({ title, description });
+  const openModal = (title, description, link) => {
+    setModalData({ title, description, link });
     const modal = document.getElementById("projectModal");
     modal.style.display = "block";
   };
@@ -185,14 +128,18 @@ const Portfolio = () => {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  openModal(project.title, project.description);
+                  openModal(project.title, project.description, project.link);
                 }}
               >
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FontAwesomeIcon icon={faEye} />
                   </div>
-                  <img src={project.img} alt={project.title} loading="lazy" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}${project.img}`}
+                    alt={project.title}
+                    loading="lazy"
+                  />
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
@@ -207,6 +154,9 @@ const Portfolio = () => {
             <span className="close">&times;</span>
             <h2 id="modalTitle">{modalData.title}</h2>
             <p id="modalDescription">{modalData.description}</p>
+            <a target="_blank" href={modalData.link}>
+              Lien vers le projet
+            </a>
           </div>
         </div>
       </section>
