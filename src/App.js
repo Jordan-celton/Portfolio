@@ -1,5 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from "react"; // Ajoutez useState et useEffect
+import { Navigate } from "react-router-dom"; // Ajoutez cette ligne
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -28,10 +30,8 @@ function AnimatedRoutes() {
   const { translations } = React.useContext(TranslationContext);
   const [prevLocation, setPrevLocation] = useState(location.pathname);
 
-  // Détermine si la page actuelle est différente de la précédente
   const isDifferentPage = location.pathname !== prevLocation;
 
-  // Met à jour la route précédente uniquement lorsqu'il y a un changement de route
   useEffect(() => {
     if (isDifferentPage) {
       setPrevLocation(location.pathname);
@@ -41,7 +41,7 @@ function AnimatedRoutes() {
   return (
     <TransitionGroup component={null}>
       <CSSTransition
-        key={isDifferentPage ? location.key : prevLocation} // N'utilise pas une nouvelle clé si on est sur la même page
+        key={isDifferentPage ? location.key : prevLocation}
         timeout={{ enter: 500, exit: 500 }}
         classNames="slide"
         unmountOnExit
@@ -64,7 +64,8 @@ function AnimatedRoutes() {
             path="/contact"
             element={<Contact translations={translations} />}
           />
-          {/* Ajoutez d'autres routes ici */}
+          {/* Redirection vers la page d'accueil pour toutes les autres routes */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>
