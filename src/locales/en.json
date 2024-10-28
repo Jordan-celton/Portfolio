@@ -10,16 +10,16 @@
   "birthdate": "February 20, 1988",
   "city": "Quimper, Finistère",
   "aboutTitle": "About",
-  "aboutText": "After several years in another field, I decided to transition to web development, specifically as a web integrator. This choice was motivated by my passion for creating websites and my desire to combine creativity and technology. Today, I take real pleasure in building intuitive, modern websites that meet user needs. Each project is an opportunity for me to learn, face new challenges, and improve my skills.",
+  "aboutText": "After several years in another field, I decided to switch careers and pursue web development, specifically as a web integrator. This choice was driven by my passion for creating websites and my desire to combine creativity and technology. Today, I truly enjoy building modern, user-friendly websites that meet users' needs. Each project is an opportunity for me to learn, face new challenges, and improve my skills.",
   "serviceTitle": "What I Do",
   "designWebTitle": "Web Design",
-  "designWebText": "Creation of modern and intuitive designs tailored to the needs of users and businesses.",
+  "designWebText": "Creating modern and intuitive designs tailored to the needs of users and businesses.",
   "integrationWebTitle": "Web Integration",
-  "integrationWebText": "Integration of responsive websites optimized for all types of screens, using best web practices.",
+  "integrationWebText": "Integrating responsive websites optimized for all screen types, using best web practices.",
   "developmentFrontEndTitle": "Front-End Development",
-  "developmentFrontEndText": "Development of the user interface, ensuring a smooth and pleasant experience for visitors.",
+  "developmentFrontEndText": "Developing user interfaces, ensuring a smooth and pleasant experience for visitors.",
   "optimizationPerformanceTitle": "Optimization and Performance",
-  "optimizationPerformanceText": "Improvement of website speed and performance for fast and seamless navigation.",
+  "optimizationPerformanceText": "Improving website speed and performance for fast and smooth navigation.",
   "navbarAbout": "About",
   "navbarResume": "Resume",
   "navbarPortfolio": "Portfolio",
@@ -30,12 +30,12 @@
     {
       "degree": "OpenClassrooms - Web Developer",
       "year": "2024 - 9 months",
-      "description": "Intensive Web Integrator training, learning front-end and back-end technologies, and completing several concrete projects."
+      "description": "Intensive training as a web integrator, learning front-end and back-end technologies, and completing multiple hands-on projects."
     },
     {
       "degree": "Technical Baccalaureate in Machining - Lycée Le Likes",
       "year": "2008",
-      "description": "Obtained the Technical Baccalaureate with a specialization in machining techniques at Lycée Le Likes, developing skills in programming and industrial manufacturing."
+      "description": "Obtained a Technical Baccalaureate with a specialization in machining techniques at Lycée Le Likes, developing skills in programming and industrial manufacturing."
     }
   ],
   "experienceTitle": "Professional Experience",
@@ -43,10 +43,9 @@
     {
       "position": "Freelance Web Developer",
       "year": "2024 — Present",
-      "description": "Developing websites and applications for clients across various sectors, using modern technologies like HTML, CSS, JavaScript, and React."
+      "description": "Developing websites and web applications for clients in various sectors, using modern technologies such as HTML, CSS, JavaScript, and React."
     }
   ],
-
   "skillsTitle": "My Skills",
   "skillsList": [
     {
@@ -65,35 +64,69 @@
       "name": "Git / GitHub",
       "level": "60"
     }
-  ], 
-  
-    "portfolioTitle": "Portfolio",
-    "chooseCategory": "Choose a category",
-    "bookiTitle": "Booki",
-    "bookiDescription": "Creation of the homepage for a travel agency with a responsive interface using HTML5 and CSS3. Integration of Figma mockups and development of custom components for an optimal user experience.\nLink to the project: https://github.com/Jordan-celton/P3",
-    "ohmyfoodTitle": "Ohmyfood",
-    "ohmyfoodDescription": "Learning objectives: mobile-first design, implementation of CSS animations, using Sass for maintainable code, and versioning with Git and GitHub.\nLink to the project: https://github.com/Jordan-celton/P4",
-    "sophiebluelTitle": "Interior Architect Portfolio",
-    "sophiebluelDescription": "Development of a dynamic webpage for an interior architect's site using JavaScript. Interaction with an API, creating dynamic pages, and using tools like Figma and Visual Studio Code.\nLink to the project: https://github.com/Jordan-celton/P6",
-    "kasaTitle": "Kasa Redesign",
-    "kasaDescription": "Implementation of the front-end of an application with React and React Router. Component development, navigation management, and using simulated data from a JSON file.\nLink to the project: https://github.com/Jordan-celton/P7",
-    "ninaCarducciTitle": "Nina Carducci - SEO Optimization",
-    "ninaCarducciDescription": "SEO optimization of a website by improving its performance and accessibility. Analysis of issues, implementation of improvements, and creating a report detailing the before/after results.\nLink to the project: https://github.com/Jordan-celton/P8",
-    "eventsTitle": "724events - Debug and Test",
-    "eventsDescription": "Debugging and finalizing a one-page site. Code analysis, bug resolution with Chrome DevTools and React Developer Tools, documenting tests, and project management with Yarn.\nLink to the project: https://github.com/Jordan-celton/P9",
-    "argentBankTitle": "Argent Bank - User Dashboard",
-    "argentBankDescription": "Development of the front-end of a banking application with React and Redux. API calls integration, creation of a responsive user interface, and state management with Redux.\nLink to the project: https://github.com/Jordan-celton/P10",
-    "qwentaTitle": "Menu Maker - Qwenta",
-    "qwentaDescription": "Development of the **Menu Maker - Qwenta** project, an online tool for creating and customizing menus for restaurateurs.\nLink to the project: https://github.com/Jordan-celton/P11",
-    "contactTitle": "Contact",
-    "contactFormTitle": "Contact Me",
-    "namePlaceholder": "Full Name",
-    "emailPlaceholder": "Email Address",
-    "messagePlaceholder": "Your Message",
-    "submitButton": "Send",
-    "mapTitle": "Map of the location"
-       
+  ],
+  "projects": [
+    {
+      "title": "Booki",
+      "description": "Created the homepage for a travel agency with a responsive interface using HTML5 and CSS3. Integrated Figma mockups and developed custom components for optimal user experience.",
+      "link": "https://github.com/Jordan-celton/P3",
+      "img": "/images/projet-booki.png", 
+      "category": "Web design"
+    },
+    {
+      "title": "Ohmyfood",
+      "description": "Learning objectives: mobile-first design, CSS animations, maintainable code with Sass, and version control with Git and GitHub.",
+      "link": "https://github.com/Jordan-celton/P4",
+      "img": "/images/projet-ohmyfood.png", 
+      "category": "Applications"
+    },
+    {
+      "title": "Interior Architect Portfolio",
+      "description": "Developed a dynamic webpage for an interior designer's site with JavaScript. API interaction, dynamic page creation, and use of tools like Figma and Visual Studio Code.",
+      "link": "https://github.com/Jordan-celton/P6",
+      "img": "/images/projet-sophiebluel.png", 
+      "category": "Web design"
+    },
+    {
+      "title": "Kasa Site Redesign",
+      "description": "Implemented the front end of an application with React and React Router. Developed components, managed navigation, and used simulated data from a JSON file.",
+      "link": "https://github.com/Jordan-celton/P7",
+      "img": "/images/projet-kasa.png", 
+      "category": "Web design"
+    },
+    {
+      "title": "Nina Carducci - SEO Optimization",
+      "description": "Improved website SEO by enhancing performance and accessibility. Analyzed issues, implemented improvements, and created a report detailing before/after results.",
+      "link": "https://github.com/Jordan-celton/P8",
+      "img": "/images/projet-nina-carducci.png", 
+      "category": "Web development"
+    },
+    {
+      "title": "724events - Debugging and Testing",
+      "description": "Debugging and finalizing a one-page site. Code analysis, bug fixing with Chrome DevTools and React Developer Tools, test documentation, and project management with Yarn.",
+      "link": "https://github.com/Jordan-celton/P9",
+      "img": "/images/projet-724-events.png", 
+      "category": "Web development"
+    },
+    {
+      "title": "Argent Bank - User Dashboard",
+      "description": "Developed the front end of a banking application with React and Redux. API integration, responsive user interface creation, and global state management with Redux.",
+      "link": "https://github.com/Jordan-celton/P10-forked",
+      "img": "/images/projet-argentbank.png", 
+      "category": "Applications"
+    },
+    {
+      "title": "Menu Maker - Qwenta",
+      "description": "Developed the **Menu Maker - Qwenta** project, an online tool for restaurateurs to create and customize menus.",
+      "img": "/images/projet-qwenta.png",
+      "category": "Web development"
+    }
+  ],
+  "contactTitle": "Contact",
+  "contactFormTitle": "Contact Me",
+  "namePlaceholder": "Name Firstname",
+  "emailPlaceholder": "Email Address",
+  "messagePlaceholder": "Your Message",
+  "submitButton": "Send",
+  "mapTitle": "Location Map"
 }
-
-  
-
