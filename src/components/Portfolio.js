@@ -154,7 +154,7 @@ const Portfolio = () => {
             <span className="close">&times;</span>
             <h2 id="modalTitle">{modalData.title}</h2>
             <p id="modalDescription">{modalData.description}</p>
-            <a target="_blank" href={modalData.link}>
+            <a target="_blank" rel="noreferrer" href={modalData.link}>
               Lien vers le projet
             </a>
           </div>
