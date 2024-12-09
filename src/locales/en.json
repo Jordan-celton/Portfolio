@@ -120,7 +120,24 @@
       "description": "Developed the **Menu Maker - Qwenta** project, an online tool for restaurateurs to create and customize menus.",
       "img": "/images/projet-qwenta.png",
       "category": "Web development"
-    }
+    },
+    {
+  "title": "LP Paysages - Showcase Website",
+  "description": "Development of the showcase website for LP Paysages, a company specializing in the creation and maintenance of gardens and green spaces.",
+  "link": "https://github.com/Jordan-celton/lp-paysage.git",
+  "img": "/images/logo.png",
+  "category": "Web design",
+  "status": "In development"
+},
+{
+  "title": "Angélique Lombard Latune - Showcase Website",
+  "description": "Development of the showcase website for artist Angélique Lombard Latune, presenting her works and artistic journey.",
+  "link": "https://github.com/Jordan-celton/Ang-lique-Lombard.git",
+  "img": "/images/ALL.gif",
+  "category": "Web design",
+  "status": "In development"
+}
+
   ],
   "contactTitle": "Contact",
   "contactFormTitle": "Contact Me",

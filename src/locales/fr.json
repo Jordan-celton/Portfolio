@@ -120,7 +120,24 @@
       "description": "Développement du projet **Menu Maker - Qwenta**, un outil en ligne pour la création et la personnalisation de menus par les restaurateurs. :",
         "img": "/images/projet-qwenta.png",
         "category": "Web development"
+    },
+    {
+      "title": "LP Paysages - Site vitrine",
+      "description": "Développement du site vitrine de l'entreprise LP Paysages, spécialisée dans la création et l'entretien de jardins et espaces verts. :",
+      "link": "https://github.com/Jordan-celton/lp-paysage.git",
+        "img": "/images/logo.png",
+        "category": "Web design",
+        "status": "En développement"
+    },
+    {
+      "title": "Angélique Lombard Latune - Site vitrine",
+      "description": "Développement du site vitrine de l'artiste Angélique Lombard Latune, présentant ses œuvres et son parcours artistique. :",
+      "link": "https://github.com/Jordan-celton/Ang-lique-Lombard.git",
+        "img": "/images/ALL.gif",
+        "category": "Web design",
+        "status": "En développement"
     }
+
   ], 
   "contactTitle": "Contact",
   "contactFormTitle": "Me contacter",

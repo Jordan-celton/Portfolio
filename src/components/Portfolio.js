@@ -143,6 +143,13 @@ const Portfolio = () => {
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
+
+                {/* Ajouter un badge ou texte pour le status */}
+                {project.status === "En développement" && (
+                  <span className="project-status">
+                    🚧 En cours de développement
+                  </span>
+                )}
               </button>
             </li>
           ))}
