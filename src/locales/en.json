@@ -129,7 +129,15 @@
   "img": "/images/ALL.gif",
   "category": "Web design",
   "status": "In development"
-}
+},
+   {
+      "title": "Site e-commerce",
+      "description": "Reproduction d'une maquette de site e-commerce en React et SASS :",
+      "link": "",
+        "img": "/images/projet-ecommerce.png",
+        "category": "Web design",
+        "status": ""
+    }
 
   ],
   "contactTitle": "Contact",
