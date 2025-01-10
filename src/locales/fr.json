@@ -67,13 +67,6 @@
   ],
   "projects": [
     {
-      "title": "Booki",
-      "description": "Création de la page d'accueil d'une agence de voyage avec une interface responsive utilisant HTML5 et CSS3. Intégration de maquettes Figma et développement de composants personnalisés pour une expérience utilisateur optimale.",
-      "link": "https://github.com/Jordan-celton/P3",
-      "img": "/images/projet-booki.png", 
-      "category": "Web design"
-    },
-    {
       "title": "Ohmyfood",
       "description": "Objectifs d'apprentissage : conception mobile-first, implémentation d'animations CSS, utilisation de Sass pour un code maintenable, et versionnement avec Git et GitHub. :",
       "link": "https://github.com/Jordan-celton/P4",
