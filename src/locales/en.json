@@ -69,7 +69,7 @@
     {
       "title": "Ohmyfood",
       "description": "Learning objectives: mobile-first design, CSS animations, maintainable code with Sass, and version control with Git and GitHub.",
-      "link": "https://github.com/Jordan-celton/P4",
+      "link": "https://ohmyfoodjordan.netlify.app",
       "img": "/images/projet-ohmyfood.png", 
       "category": "Applications"
     },
@@ -83,7 +83,7 @@
     {
       "title": "Kasa Site Redesign",
       "description": "Implemented the front end of an application with React and React Router. Developed components, managed navigation, and used simulated data from a JSON file.",
-      "link": "https://github.com/Jordan-celton/P7",
+      "link": "https://kasajordan.netlify.app/",
       "img": "/images/projet-kasa.png", 
       "category": "Web design"
     },

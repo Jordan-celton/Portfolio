@@ -69,7 +69,7 @@
     {
       "title": "Ohmyfood",
       "description": "Objectifs d'apprentissage : conception mobile-first, implémentation d'animations CSS, utilisation de Sass pour un code maintenable, et versionnement avec Git et GitHub. :",
-      "link": "https://github.com/Jordan-celton/P4",
+      "link": "https://ohmyfoodjordan.netlify.app",
       "img": "/images/projet-ohmyfood.png", 
       "category": "Applications"
     },
@@ -83,7 +83,7 @@
     {
       "title": "Refonte du site Kasa",
       "description": "Implémentation du front-end d'une application avec React et React Router. Développement de composants, gestion de la navigation et utilisation de données simulées à partir d'un fichier JSON. :",
-      "link": "https://github.com/Jordan-celton/P7",
+      "link": "https://kasajordan.netlify.app/",
         "img": "/images/projet-kasa.png", 
         "category": "Web design"
     },
