@@ -50,19 +50,19 @@
   "skillsList": [
     {
       "name": "HTML / CSS",
-      "level": "70"
+      "level": "100"
     },
     {
       "name": "JavaScript",
-      "level": "50"
+      "level": "70"
     },
     {
       "name": "React",
-      "level": "50"
+      "level": "65"
     },
     {
       "name": "Git / GitHub",
-      "level": "60"
+      "level": "80"
     }
   ],
   "projects": [
@@ -115,20 +115,20 @@
         "category": "Web development"
     },
     {
-      "title": "LP Paysages - Site vitrine",
-      "description": "Développement du site vitrine de l'entreprise LP Paysages, spécialisée dans la création et l'entretien de jardins et espaces verts. :",
-      "link": "https://lp-payages.netlify.app/",
-        "img": "/images/logo.png",
-        "category": "Web design",
-        "status": "En développement"
-    },
-    {
       "title": "Site e-commerce",
       "description": "Reproduction d'une maquette de site e-commerce en React et SASS :",
       "link": "https://jordane-commerce.netlify.app",
         "img": "/images/login-background.png",
         "category": "Web design",
         "status": ""
+    },
+    {
+      "title": "Neptune Arrosage - Site Vitrine",
+      "description": "Développement du site vitrine de l'entreprise Neptune Arrosage, spécialisée dans les systèmes d'arrosage automatique et l'entretien des espaces verts. :",
+      "link": "https://neptunearrosage.com/",
+        "img": "/images/A_photograph_captures_a_Wallace_Fountain_situated_.webp",
+        "category": "Web design",
+        "status": "Web design"
     }
 
   ], 

@@ -64,7 +64,6 @@ const Resume = () => {
               <li className="skills-item" key={index}>
                 <div className="title-wrapper">
                   <h5 className="h5">{skill.name}</h5>
-                  <data value={skill.level}>{skill.level}%</data>
                 </div>
                 <div className="skill-progress-bg">
                   <div

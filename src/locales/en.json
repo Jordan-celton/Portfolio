@@ -50,19 +50,19 @@
   "skillsList": [
     {
       "name": "HTML / CSS",
-      "level": "70"
+      "level": "100"
     },
     {
       "name": "JavaScript",
-      "level": "50"
+      "level": "70"
     },
     {
       "name": "React",
-      "level": "50"
+      "level": "65"
     },
     {
       "name": "Git / GitHub",
-      "level": "60"
+      "level": "80"
     }
   ],
   "projects": [
@@ -114,14 +114,6 @@
       "img": "/images/projet-qwenta.png",
       "category": "Web development"
     },
-    {
-  "title": "LP Paysages - Showcase Website",
-  "description": "Development of the showcase website for LP Paysages, a company specializing in the creation and maintenance of gardens and green spaces.",
-  "link": "https://lp-payages.netlify.app/",
-  "img": "/images/logo.png",
-  "category": "Web design",
-  "status": "In development"
-},
    {
       "title": "Site e-commerce",
       "description": "Reproduction d'une maquette de site e-commerce en React et SASS :",
@@ -129,7 +121,17 @@
         "img": "/images/login-background.png",
         "category": "Web design",
         "status": ""
+    },
+    {
+      "title": "Neptune Arrosage - Showcase Website",
+      "description": "Development of the showcase website for Neptune Arrosage, a company specializing in automatic irrigation systems and green space maintenance.",
+      "link": "https://neptunearrosage.com/",
+      "img": "/images/A_photograph_captures_a_Wallace_Fountain_situated_.webp",
+      "category": "Web Design",
+      "status": "Web Design"
     }
+    
+
 
   ],
   "contactTitle": "Contact",

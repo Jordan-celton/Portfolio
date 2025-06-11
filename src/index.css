@@ -1678,15 +1678,6 @@ textarea.form-input::-webkit-resizer {
     grid-template-columns: 1fr 1fr;
   }
 
-    .project-status {
-      display: block;
-      margin-top: 5px;
-      font-size: 0.9rem;
-      color: #ff9800;
-      /* Couleur orange pour indiquer l'état */
-      font-weight: bold;
-    }
-
   /**
    * CONTACT
    */
